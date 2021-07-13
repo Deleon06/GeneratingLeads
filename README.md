@@ -10,6 +10,8 @@ One location to get all info when it comes towards financial assistance.
 
 ## API and Data Sample
 ```
+
+Lead Info
 {
     "records": [
         {
@@ -37,6 +39,37 @@ One location to get all info when it comes towards financial assistance.
     ],
     "offset": "recllPDQjS8BWIcME"
 }
+
+Review Info
+
+{
+    "records": [
+        {
+            "id": "recDoRgaWMAVcuiXT",
+            "fields": {
+                "Name": "Randy Morgan",
+                "Debt Amount": 55000,
+                "Location": "Arizona",
+                "Email Address": "Randy.Morgan@Chase.com",
+                "Phone number": "(342) 344-1234",
+                "Service": "Personal Loan"
+            },
+            "createdTime": "2021-07-13T13:07:48.000Z"
+        },
+        {
+            "id": "recysaBYtHkx8sdWC",
+            "fields": {},
+            "createdTime": "2021-07-13T13:07:48.000Z"
+        },
+        {
+            "id": "recllPDQjS8BWIcME",
+            "fields": {},
+            "createdTime": "2021-07-13T13:07:48.000Z"
+        }
+    ],
+    "offset": "recllPDQjS8BWIcME"
+}
+
 ```
 
 ## Wireframes
