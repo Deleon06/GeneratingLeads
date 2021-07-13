@@ -98,6 +98,8 @@ Review Info
 |July 14| Have both Databases Incorporated| Incomplete
 |July 15| Have all pages rendering| Incomplete
 |July 17| Complete MVP| Incomplete
+|July 17| Start Working on Post MVP|Incomplete
+|July 18| Complet the chat box|Incomplete
 |July 19| Deployed MVP Due 11:30am| Incomplete
 |July 20| Presentations 11pm| Incomplete
 
