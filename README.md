@@ -96,8 +96,8 @@ Review Info
 |  Day | Deliverable | Status
 |---|---| ---|
 |July 13| Pitches Due 10am| Incomplete
-|June 19| Deployed MVP Due 11:30am| Incomplete
-|June 20| Presentations 11pm| Incomplete
+|July 19| Deployed MVP Due 11:30am| Incomplete
+|July 20| Presentations 11pm| Incomplete
 
 
 ## Priority Matrix
