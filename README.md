@@ -6,7 +6,7 @@
 
 ## Project Description
 
-One location to get all info when it comes towards financial assistance. 
+One location to get all info when it comes towards financial assistance, including but not limited to Personal Loans, Credit Counseling, Debt Negotiation, Bankrupcy and Doing it yourself methods. Provides information about services that's normally only obtainable once you've provide your social security number for a credit check. Provides top 5 companies in each field based on the Better Business Bureau and Consumers Affairs. 
 
 ## API and Data Sample
 ```
@@ -80,16 +80,16 @@ Review Info
 
 #### MVP 
 
-- Include 2 databases, one for reviews, and one for info entry.
-- Have at least 5 difference services. (credit counseling, bankruptcy, loans, debt negotiation, doing it yourself. 
+- Include 2 databases, one for lead generating and another one for reviews.
+- Have at least 5 difference services. (Personal Loans, Credit Counseling, Debt Negotiation, Bankrupcy and Doing it yourself) 
 - make the website responsive
 
 #### PostMVP  
 
 - style it using a few keyframes.
-- Allow user to click to see or hide nutrition data
-- Allow the user either delete the burger selection if they no longer want to try to cook it or if they didn't like it after they cooked it.
-- Allow the user to create a favorite list to revisit by using local storage to save burger info.
+- create a chat feature.
+- add mutual funds, life insurance, annuity info. 
+- create usernames for more interactive website between users. 
 
 ## Project Schedule
 
@@ -107,20 +107,18 @@ Review Info
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Basic HTML Structure | H | 1hrs| N/A | N/A |
+| Basic Components Structure | H | 1hrs| N/A | N/A |
 | Basic AirTable Set up| H | 3hrs| N/A | N/A |
-| More HTML Structure for Rendering Data | H | 1hrs| N/A | N/A |
+| Javascript Structure for Rendering Data | H | 1hrs| N/A | N/A |
 | Javascript Button functionality| H | 1hrs | N/A | N/A |
-| Getting Random Data from API| H | 2hrs | N/A | N/A |
+| Form Creation for leads| H | 2hrs | N/A | N/A |
 | CSS Styling for Main Page| M | 8hrs| N/A | N/A | 
-| Getting Specific Data from API| M | 4hrs | N/A | N/A |
+| Form Creation for Reviews| H | 2hrs | N/A | N/A |
 | Media Query| H | 4hrs | N/A | N/A | 
 | Building Different Pages| H | 3hrs | N/A | N/A | 
-| HTML Structure for additional Pages| L | 2hrs | N/A | N/A| 
+| Adding information to all pages| L | 6hrs | N/A | N/A| 
 | CSS Styling for Additional Pages| L | 3hrs| N/A | N/A |
 | Implementing Local Storage | L | 2hrs | N/A | N/A |
-| Javascript for Deleting Data| M | 2hrs | N/A | N/A |
-| Adding more Local Storage | L | 2hrs | N/A | N/A |
 | Adding additional Services| H | 5hrs | N/A | N/A | 
 | Total | H | 43hrs| N/A | N/A |
 
