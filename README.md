@@ -79,7 +79,7 @@ Review Info
 
 #### MVP 
 
-- Include 2 databases, one for lead generating and another one for reviews.
+- Include 2 databases, one for lead generating and another one for reviews, one will have post and get, the other one only post.
 - Have at least 5 difference services. (Personal Loans, Credit Counseling, Debt Negotiation, Bankrupcy and Doing it yourself) 
 - make the website responsive using Media Query and Flexbox.
 
@@ -95,7 +95,7 @@ Review Info
 |  Day | Deliverable | Status
 |---|---| ---|
 |July 13| Pitches Due 10am| Incomplete
-|July 14| Have both Databases Incorporated| Incomplete
+|July 14| Have both Databases Incorporated and working with post and get| Incomplete
 |July 15| Have all pages rendering| Incomplete
 |July 17| Complete MVP| Incomplete
 |July 17| Start Working on Post MVP|Incomplete
