@@ -70,7 +70,7 @@ Review Info
 ```
 ## Wire Frame
 
-![alt text]
+![alt text](https://github.com/Deleon06/GeneratingLeads/blob/main/wireframe.png)
 ## Components Hierachy
 
 ![alt text](https://github.com/Deleon06/GeneratingLeads/blob/main/Generating%20Leads.png)
@@ -105,7 +105,7 @@ Review Info
 
 
 ## Priority Matrix
-![alt text](https://github.com/Deleon06/GeneratingLeads/blob/main/Priority%20Matrix%20Template.xlsx%20-%20Task%20Priority%20Matrix.pdf)
+![alt text](https://github.com/Deleon06/GeneratingLeads/blob/main/PriorityMatrix.png)
 
 ## Timeframes
 
