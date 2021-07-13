@@ -129,4 +129,16 @@ Review Info
 ```
 
 ## Change Log
+
+
+## SWOT Analysis
+
+### Strengths: Javascript functionality
+
+### Weaknesses: CSS styling
+
+### Opportunities: strengthen my styling capabilities by using javascript, apply new styles that i never used before to give the website more of an appeal. 
+
+### Threats: time constraint, project is looking more of an entire website than just an application.  If I don't focus on MVP first, it could easily not get done in time. 
+
  
