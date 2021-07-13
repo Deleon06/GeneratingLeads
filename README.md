@@ -68,8 +68,10 @@ Review Info
 }
 
 ```
+## Wire Frame
 
-## Wireframes
+![alt text]
+## Components Hierachy
 
 ![alt text](https://github.com/Deleon06/GeneratingLeads/blob/main/Generating%20Leads.png)
 
@@ -79,11 +81,11 @@ Review Info
 
 - Include 2 databases, one for lead generating and another one for reviews.
 - Have at least 5 difference services. (Personal Loans, Credit Counseling, Debt Negotiation, Bankrupcy and Doing it yourself) 
-- make the website responsive
+- make the website responsive using Media Query and Flexbox.
 
 #### PostMVP  
 
-- style it using a few keyframes.
+- Add a few keyframes for more of an appeal.
 - create a chat feature.
 - add mutual funds, life insurance, annuity info. 
 - create usernames for more interactive website between users. 
@@ -93,6 +95,9 @@ Review Info
 |  Day | Deliverable | Status
 |---|---| ---|
 |July 13| Pitches Due 10am| Incomplete
+|July 14| Have both Databases Incorporated| Incomplete
+|July 15| Have all pages rendering| Incomplete
+|July 17| Complete MVP| Incomplete
 |July 19| Deployed MVP Due 11:30am| Incomplete
 |July 20| Presentations 11pm| Incomplete
 
