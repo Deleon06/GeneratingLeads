@@ -14,7 +14,7 @@ One location to get all info when it comes towards financial assistance.
 
 ## Wireframes
 
-![alt text](https://github.com/Deleon06/Hot_Burger_Summer/blob/main/Hot%20Burger%20Summer%20WireFrame.png)
+![alt text]
 
 ### MVP/PostMVP
 
@@ -41,7 +41,7 @@ One location to get all info when it comes towards financial assistance.
 
 
 ## Priority Matrix
-![alt text](https://github.com/Deleon06/Hot_Burger_Summer/blob/main/Priority%20Matrix.png)
+![alt text]
 
 ## Timeframes
 
