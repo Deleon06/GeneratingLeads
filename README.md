@@ -42,32 +42,29 @@ Lead Info
 
 Review Info
 
-{
+
     "records": [
         {
-            "id": "recDoRgaWMAVcuiXT",
+            "id": "recaqrwW9Uq7b5fnZ",
             "fields": {
+                "Review": "Was very easy to utilize this website! \nWhen i called their referral i knew exactly what i was getting into and it was easy to move forward!",
                 "Name": "Randy Morgan",
-                "Debt Amount": 55000,
-                "Location": "Arizona",
-                "Email Address": "Randy.Morgan@Chase.com",
-                "Phone number": "(342) 344-1234",
-                "Service": "Personal Loan"
+                "Rating": 5
             },
-            "createdTime": "2021-07-13T13:07:48.000Z"
+            "createdTime": "2021-07-13T13:36:32.000Z"
         },
         {
-            "id": "recysaBYtHkx8sdWC",
+            "id": "recRMTw3Wq9VrXbjK",
             "fields": {},
-            "createdTime": "2021-07-13T13:07:48.000Z"
+            "createdTime": "2021-07-13T13:36:32.000Z"
         },
         {
-            "id": "recllPDQjS8BWIcME",
+            "id": "rec5A1cc7U6q6xNux",
             "fields": {},
-            "createdTime": "2021-07-13T13:07:48.000Z"
+            "createdTime": "2021-07-13T13:36:32.000Z"
         }
     ],
-    "offset": "recllPDQjS8BWIcME"
+    "offset": "rec5A1cc7U6q6xNux"
 }
 
 ```
