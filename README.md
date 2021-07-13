@@ -74,7 +74,7 @@ Review Info
 
 ## Wireframes
 
-![alt text]
+![alt text](https://github.com/Deleon06/GeneratingLeads/blob/main/Generating%20Leads.png)
 
 ### MVP/PostMVP
 
@@ -101,7 +101,7 @@ Review Info
 
 
 ## Priority Matrix
-![alt text]Generating Leads.png
+![alt text](https://github.com/Deleon06/GeneratingLeads/blob/main/Priority%20Matrix%20Template.xlsx%20-%20Task%20Priority%20Matrix.pdf)
 
 ## Timeframes
 
