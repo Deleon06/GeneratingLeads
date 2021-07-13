@@ -101,7 +101,7 @@ Review Info
 
 
 ## Priority Matrix
-![alt text]
+![alt text]Generating Leads.png
 
 ## Timeframes
 
