@@ -73,7 +73,7 @@ Review Info
 ![alt text](https://github.com/Deleon06/GeneratingLeads/blob/main/wireframe.png)
 ## Components Hierachy
 
-![alt text](https://github.com/Deleon06/GeneratingLeads/blob/main/Generating%20Leads.png)
+![alt text](https://github.com/Deleon06/GeneratingLeads/blob/main/generatingleads.png)
 
 ### MVP/PostMVP
 
