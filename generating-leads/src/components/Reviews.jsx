@@ -1,6 +1,7 @@
 import axios from 'axios'
 import { useState, useEffect } from 'react'
 import Review from './Review'
+import StarRating from './StarRating'
 
 const APIKEY = process.env.REACT_APP_APIKEY
 const APIBASE = process.env.REACT_APP_APIBASE
@@ -23,7 +24,9 @@ const [reviews, setReviews] = useState([])
     <div>
       {
           reviews?.map((review) => (
+            <>
               <Review review={review} />
+            </>
             )
           )
         }
