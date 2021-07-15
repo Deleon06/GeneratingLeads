@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { useState, useEffect } from 'react'
-import Review from './Review'
-import StarRating from './StarRating'
+import Review from '../Review/Review'
+import './Reviews.css'
 
 const APIKEY = process.env.REACT_APP_APIKEY
 const APIBASE = process.env.REACT_APP_APIBASE

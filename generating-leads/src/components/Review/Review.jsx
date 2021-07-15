@@ -1,6 +1,6 @@
 import React from "react"
 import { FaStar } from 'react-icons/fa'
-import "./StarRating.css"
+import "./Review.css"
 
 export default function Review(props) {
   return (

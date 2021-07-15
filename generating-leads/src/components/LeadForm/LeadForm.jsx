@@ -1,5 +1,6 @@
 import axios from 'axios'
 import { useState } from 'react'
+import "./LeadForm.css"
 
 const APIKEY = process.env.REACT_APP_APIKEY
 const APIBASE = process.env.REACT_APP_APIBASE
@@ -32,7 +33,7 @@ export default function LeadForm() {
     console.log(res)
   }
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className="submit-form">
       <label>Name</label>
       <br />
       <input

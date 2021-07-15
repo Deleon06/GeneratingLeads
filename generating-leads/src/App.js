@@ -1,11 +1,11 @@
 import './App.css';
 import React from 'react';
 import { Route } from 'react-router-dom';
-import Footer from "./components/Footer"
-import LeadForm from "./components/LeadForm"
-import NavBar from './components/NavBar'
-import ReviewForm from './components/ReviewForm';
-import Reviews from './components/Reviews';
+import Footer from "./components/Footer/Footer"
+import LeadForm from "./components/LeadForm/LeadForm"
+import NavBar from './components/NavBar/NavBar'
+import ReviewForm from './components/ReviewForm/ReviewForm';
+import Reviews from './components/Reviews/Reviews';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -15,11 +15,10 @@ function App() {
       <NavBar />
       <Route exact path="/">
         <LeadForm />
-        <ReviewForm />
       </Route>  
       <Route exact path="/reviews">
         <ReviewForm />
-        <Reviews />
+      <Reviews />
       </Route>  
       <Footer />
     </div>

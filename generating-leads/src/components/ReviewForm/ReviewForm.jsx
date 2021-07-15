@@ -1,7 +1,8 @@
 import axios from 'axios'
 import { useState } from 'react'
 import { FaStar } from 'react-icons/fa'
-import "./StarRating.css"
+import "../StarRating/StarRating.css"
+import "./ReviewForm.css"
 
 const APIKEY = process.env.REACT_APP_APIKEY
 const APIBASE = process.env.REACT_APP_APIBASE
