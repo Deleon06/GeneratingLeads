@@ -5,6 +5,7 @@ import Footer from "./components/Footer"
 import LeadForm from "./components/LeadForm"
 import NavBar from './components/NavBar'
 import ReviewForm from './components/ReviewForm';
+import Reviews from './components/Reviews';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <NavBar />
       <LeadForm />
       <ReviewForm />
+      <Reviews />
       <Footer />
     </div>
   );
