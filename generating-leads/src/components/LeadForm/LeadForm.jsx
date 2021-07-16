@@ -81,7 +81,7 @@ export default function LeadForm() {
         <option value="Bankruptcy">Bankrupcy</option>
         <option value="Doing It Yourself">Doing It Yourself</option>
       </select>
-      <button>Submit</button>
+      <button className="button">Submit</button>
     </form>
   )
 }

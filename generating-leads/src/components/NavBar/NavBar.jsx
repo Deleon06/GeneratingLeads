@@ -1,6 +1,7 @@
 import React from "react"
 import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './NavBar.css'
 
 //https://react-bootstrap.github.io/components/navbar/#navbar-api
 
@@ -8,7 +9,7 @@ export default function NavBar() {
   return (
   <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
     <Container>
-      <Navbar.Brand href="/">React-Bootstrap</Navbar.Brand>
+      <Navbar.Brand href="/">Finance Before You Call</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="me-auto">
