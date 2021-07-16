@@ -30,28 +30,24 @@ export default function ReviewForm() {
     console.log(res)
   }
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="ReviewForm" onSubmit={handleSubmit}>
       <label>Name</label>
-      <br />
       <input
         type="text"
         value={name}
         onChange={(e) => setName(e.target.value)}
       />
-      <br />
       <label>Review</label>
-      <br />
       <input
         type="text"
         value={review}
         onChange={(e) => setReview(e.target.value)}
       />
-      <br />
+      
       <label>Rating</label>
-      <br />
+      <div className="StarContainer"> 
       {[...Array(5)].map((star, i) => {
         const ratingValue = i + 1;
-
         return (
           <label>
             <input
@@ -65,10 +61,12 @@ export default function ReviewForm() {
               onMouseEnter={() => setHover(ratingValue)}
               onMouseLeave={() => setHover(null) }/>
           </label>
-        )
-    })}
+          ) 
+      }
+        )}
+    </div> 
       <br />
-      <button>Submit</button>
+      <button className="Button">Submit</button>
     </form>
   )
 }

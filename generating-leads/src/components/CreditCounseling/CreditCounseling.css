@@ -1,0 +1,6 @@
+.CreditCounseling {
+  display: flex;
+  flex: 3;
+  order: 0;
+  flex-direction: column;
+}

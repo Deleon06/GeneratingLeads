@@ -1,0 +1,15 @@
+.ReviewForm {
+  display: flex;
+  flex-direction: column;
+  border: inset 5px gray;
+  width: 20%;
+  flex: 1;
+  order: 1;
+  padding: 5px;
+  text-align: left;
+}
+
+.StarContainer {
+  display: flex;
+  flex-direction: row;
+}
