@@ -1,0 +1,8 @@
+.submit-form {
+  display: flex;
+  flex-direction: column;
+  border: solid 2px black;
+  width: 20%;
+  flex: 1;
+  order: -1;
+}

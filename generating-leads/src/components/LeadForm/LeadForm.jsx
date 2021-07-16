@@ -35,34 +35,27 @@ export default function LeadForm() {
   return (
     <form onSubmit={handleSubmit} className="submit-form">
       <label>Name</label>
-      <br />
       <input
         type="text"
         value={name}
         onChange={(e) => setName(e.target.value)}
         required
       />
-      <br />
       <label>Debt Amount</label>
-      <br />
       <input
         type="number"
         value={debtAmount}
         onChange={(e) => setDebtAmount(e.target.valueAsNumber)}
         required
       />
-      <br />
       <label>State</label>
-      <br />
       <input
         type="text"
         value={state}
         onChange={(e) => setState(e.target.value)}
         required
       />
-      <br />
       <label>Email Address</label>
-      <br />
       <input
         type="email"
         placeholder="email@email.com"
@@ -70,9 +63,7 @@ export default function LeadForm() {
         onChange={(e) => setEmailAddress(e.target.value)}
         required
       />
-      <br />
       <label>Phone Number</label>
-      <br />
       <input
         type="tel"
         placeholder="000-000-000"
@@ -81,9 +72,7 @@ export default function LeadForm() {
         onChange={(e) => setPhoneNumber(e.target.value)}
         required
       />
-      <br />
       <label>Service</label>
-      <br />
       <select value={service} onChange={(e) => setService(e.target.value)}>
         <option></option>
         <option value="Debt Negotiation">Debt Negotiation</option>
@@ -92,7 +81,6 @@ export default function LeadForm() {
         <option value="Bankruptcy">Bankrupcy</option>
         <option value="Doing It Yourself">Doing It Yourself</option>
       </select>
-      <br />
       <button>Submit</button>
     </form>
   )
