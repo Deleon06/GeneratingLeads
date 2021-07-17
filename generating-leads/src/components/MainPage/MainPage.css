@@ -1,6 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap");
+
 .Main-Page {
   display: flex;
   flex: 3;
   order: 0;
   flex-direction: column;
+  background-color: rgb(219, 237, 243);
+  text-align: left;
+  padding: 100px;
+  font-family: "Crimson Text", serif;
+}
+
+.img {
+  height: 400px;
+  width: 800px;
+  background-image: url(./img/debt-negotiation.jpeg);
+  animation: img 60s infinite;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+}
+@keyframes img {
+  25% {
+    background: url(./img/CreditCounseling.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  50% {
+    background: url(./img/ConsolidationLoan.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  75% {
+    background: url(./img/bankruptcy.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  100% {
+    background: url(./img/Do+It+Yourself+Debt+Relief.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }

@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { useState } from 'react'
 import { FaStar } from 'react-icons/fa'
-import "../StarRating/StarRating.css"
+import "../Review/Review.css"
 import "./ReviewForm.css"
 
 const APIKEY = process.env.REACT_APP_APIKEY
@@ -38,13 +38,15 @@ export default function ReviewForm() {
         onChange={(e) => setName(e.target.value)}
       />
       <label>Review</label>
-      <input
+      <textarea
+        rows="4"
+        cols="50"
         type="text"
         value={review}
         onChange={(e) => setReview(e.target.value)}
       />
-      
       <label>Rating</label>
+      {/* https://www.youtube.com/watch?v=eDw46GYAIDQ&ab_channel=EricMurphy */}
       <div className="StarContainer"> 
       {[...Array(5)].map((star, i) => {
         const ratingValue = i + 1;

@@ -1,7 +1,6 @@
 import React from "react"
 import { FaStar } from 'react-icons/fa'
 import "./Review.css"
-
 export default function Review(props) {
   return (
     <div>
