@@ -11,7 +11,6 @@ const URL = `https://api.airtable.com/v0/${APIBASE}/Ratings`
 export default function Reviews() {
 const [reviews, setReviews] = useState([])
   useEffect(() => {
-    console.log(APIKEY)
     getData()
   }, [])
 
@@ -24,9 +23,9 @@ const [reviews, setReviews] = useState([])
     <div>
       {
           reviews?.map((review) => (
-            <>
+            <div key={review.createdTime}>
               <Review review={review} />
-            </>
+            </div>
             )
           )
         }

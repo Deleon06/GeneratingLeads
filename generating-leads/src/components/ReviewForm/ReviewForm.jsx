@@ -1,7 +1,9 @@
 import axios from 'axios'
 import { useState } from 'react'
 import { FaStar } from 'react-icons/fa'
+import { useHistory } from 'react-router-dom'
 import "./ReviewForm.css"
+
 
 const APIKEY = process.env.REACT_APP_APIKEY
 const APIBASE = process.env.REACT_APP_APIBASE
@@ -13,7 +15,7 @@ export default function ReviewForm() {
   const [review, setReview] = useState('')
   const [rating, setRating] = useState(null)
   const [hover, setHover] = useState(null)
-  
+  const history = useHistory()
 
   const handleSubmit = async (e) => {
     e.preventDefault()
@@ -26,7 +28,10 @@ export default function ReviewForm() {
     const res = await axios.post(URL, { fields }, {
       headers: {Authorization: `Bearer ${APIKEY}`}
     })
-    console.log(res)
+    setName('')
+    setReview('')
+    setRating(null)
+    history.push(`./reviews`)
   }
   return (
     <form className="ReviewForm" onSubmit={handleSubmit}>
@@ -52,12 +57,13 @@ export default function ReviewForm() {
       {[...Array(5)].map((star, i) => {
         const ratingValue = i + 1;
         return (
-          <label>
+          <label key={ratingValue}>
             <input
               type="radio"
               name="rating"
               value={ratingValue}
               onClick={() => setRating(ratingValue)}
+              required
               />
             <FaStar className="star"
               color={ratingValue <= (hover || rating) ? '#ffc107' : "#e4e5e9"}

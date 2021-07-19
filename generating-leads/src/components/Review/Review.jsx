@@ -17,11 +17,8 @@ export default function Review(props) {
 
   let newDate = inverseDate.slice(5)
 
-
-  
-
   return (
-    <div className="review-container">
+    <div className="review-container" key={newDate}>
       <h1>{props.review.fields?.name}</h1>
       <div className="date-star">
       <div className="date-created">
@@ -34,12 +31,12 @@ export default function Review(props) {
         {[...Array(5)].map((star, i) => {
           const ratingValue = i + 1
           return (
-            <label>
+            <label key={ratingValue}>
                   <input
                     type="radio"
                     name="rating"
                     value={ratingValue}
-                    />
+              />
                   <FaStar className="star" 
                   color={ratingValue <= (props.review.fields?.rating) ? '#ffc107' : "#e4e5e9"}/>
             </label>
