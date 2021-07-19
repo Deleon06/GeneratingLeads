@@ -7,7 +7,7 @@ import './NavBar.css'
 
 export default function NavBar() {
   return (
-  <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+  <Navbar collapseOnSelect expand="lg" variant="light">
     <Container>
       <Navbar.Brand href="/">Finance Before You Call</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />

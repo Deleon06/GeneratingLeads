@@ -24,7 +24,7 @@ export default function MainPage() {
         Unfortunately that's not always possible.
         Sometimes people try for 30+ years trying themselves, but the interest won't let them.</p>
       <Link to ="./DebtNegotiation">
-        <button >Start</button>
+        <button className="Button">Start</button>
       </Link>
     </div >
   )

@@ -1,6 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap");
+
 .DoingItYourself {
   display: flex;
   flex: 3;
   order: 0;
   flex-direction: column;
+  background-color: whitesmoke;
 }

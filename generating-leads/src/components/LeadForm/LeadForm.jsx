@@ -33,7 +33,7 @@ export default function LeadForm() {
     console.log(res)
   }
   return (
-    <form onSubmit={handleSubmit} className="submit-form">
+    <form onSubmit={handleSubmit} className="submit-form"> Get Help Now!
       <label>Name</label>
       <input
         type="text"

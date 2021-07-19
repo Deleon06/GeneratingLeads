@@ -1,10 +1,27 @@
-.ReviewForm {
+.star-div {
   display: flex;
-  flex-direction: column;
-  border: inset 5px gray;
-  width: 20%;
-  flex: 1;
+  justify-content: left;
+}
+
+.date-created {
+  display: flex;
   order: 1;
-  padding: 5px;
+  justify-content: right;
+}
+
+.review-container {
+  height: 300px;
+  width: 50%;
+  display: flex;
+  flex-flow: column wrap;
   text-align: left;
+  border: 2px outset gray;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.date-star {
+  display: flex;
+  justify-content: space-between;
 }

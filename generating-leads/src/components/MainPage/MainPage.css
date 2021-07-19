@@ -1,14 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap");
-
 .Main-Page {
   display: flex;
   flex: 3;
   order: 0;
   flex-direction: column;
-  background-color: rgb(219, 237, 243);
+  background-color: whitesmoke;
   text-align: left;
   padding: 100px;
-  font-family: "Crimson Text", serif;
 }
 
 .img {
@@ -42,4 +39,11 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+}
+
+.Button {
+  background: white;
+}
+
+@media only screen and (max-width: 650px) {
 }

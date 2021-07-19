@@ -1,7 +1,6 @@
 import axios from 'axios'
 import { useState } from 'react'
 import { FaStar } from 'react-icons/fa'
-import "../Review/Review.css"
 import "./ReviewForm.css"
 
 const APIKEY = process.env.REACT_APP_APIKEY
