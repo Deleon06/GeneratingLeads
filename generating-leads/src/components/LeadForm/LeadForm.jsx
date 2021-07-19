@@ -1,6 +1,7 @@
 import axios from 'axios'
 import { useState } from 'react'
 import "./LeadForm.css"
+import swal from 'sweetalert'
 
 const APIKEY = process.env.REACT_APP_APIKEY
 const APIBASE = process.env.REACT_APP_APIBASE
@@ -31,6 +32,14 @@ export default function LeadForm() {
       headers: {Authorization: `Bearer ${APIKEY}`}
     })
     console.log(res)
+    swal(`Congratulations ${name} on taking the first step towards becoming debt free!`, `We'll contact you soon`, "success")
+      setName("")
+      setDebtAmount(0)
+      setState("")
+      setEmailAddress("")
+      setPhoneNumber("")
+      setService("")
+    
   }
   return (
     <form onSubmit={handleSubmit} className="submit-form"> Get Help Now!
@@ -66,7 +75,7 @@ export default function LeadForm() {
       <label>Phone Number</label>
       <input
         type="tel"
-        placeholder="000-000-000"
+        placeholder="(___)-___-___"
         value={phoneNumber}
         pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
         onChange={(e) => setPhoneNumber(e.target.value)}
@@ -78,7 +87,7 @@ export default function LeadForm() {
         <option value="Debt Negotiation">Debt Negotiation</option>
         <option value="Credit Counseling">Credit Counseling</option>
         <option value="Personal Loan">Personal Loan</option>
-        <option value="Bankruptcy">Bankrupcy</option>
+        <option value="Bankruptcy">Bankruptcy</option>
         <option value="Doing It Yourself">Doing It Yourself</option>
       </select>
       <button className="button">Help!</button>

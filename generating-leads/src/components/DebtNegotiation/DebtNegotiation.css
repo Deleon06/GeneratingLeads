@@ -6,4 +6,12 @@
   order: 0;
   flex-direction: column;
   background-color: whitesmoke;
+  text-align: left;
+  padding: 25px;
+}
+
+@media only screen and (max-width: 650px) {
+  .DebtNegotiation {
+    flex-wrap: wrap;
+  }
 }

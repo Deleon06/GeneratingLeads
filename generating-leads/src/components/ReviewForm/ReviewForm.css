@@ -2,12 +2,13 @@
   display: flex;
   flex-direction: column;
   border: inset 5px gray;
-  width: 20%;
   flex: 1;
   order: 1;
   padding: 5px;
+  margin: 50px;
   text-align: left;
-  justify-content: center;
+  background-color: whitesmoke;
+  height: 300px;
 }
 
 .StarContainer {
@@ -22,4 +23,12 @@ input[type="radio"] {
 .star {
   cursor: pointer;
   transition: color 200ms;
+}
+
+@media only screen and (max-width: 650px) {
+  .ReviewForm {
+    flex-wrap: wrap;
+    width: 200px;
+    justify-content: center;
+  }
 }

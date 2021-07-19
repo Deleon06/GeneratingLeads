@@ -23,3 +23,10 @@
 .content-div {
   display: flex;
 }
+
+@media only screen and (max-width: 650px) {
+  .content-div {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+}

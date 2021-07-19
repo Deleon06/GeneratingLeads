@@ -25,3 +25,11 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media only screen and (max-width: 650px) {
+  .submit-form {
+    flex-wrap: wrap;
+    width: 200px;
+    justify-content: center;
+  }
+}

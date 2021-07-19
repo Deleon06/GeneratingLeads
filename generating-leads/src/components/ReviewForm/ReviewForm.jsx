@@ -35,6 +35,7 @@ export default function ReviewForm() {
         type="text"
         value={name}
         onChange={(e) => setName(e.target.value)}
+        required
       />
       <label>Review</label>
       <textarea
@@ -43,6 +44,7 @@ export default function ReviewForm() {
         type="text"
         value={review}
         onChange={(e) => setReview(e.target.value)}
+        required
       />
       <label>Rating</label>
       {/* https://www.youtube.com/watch?v=eDw46GYAIDQ&ab_channel=EricMurphy */}
