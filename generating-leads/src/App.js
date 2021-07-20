@@ -44,7 +44,7 @@ function App() {
         <ReviewForm />
       </div>   
       </Route>
-      <Route exact path="/Bankrupcy" >
+      <Route exact path="/Bankruptcy" >
       <div className="content-div"> 
         <Bankrupcy />
         <ReviewForm />

@@ -25,7 +25,7 @@ export default function ReviewForm() {
       rating,
     }
 
-    const res = await axios.post(URL, { fields }, {
+     await axios.post(URL, { fields }, {
       headers: {Authorization: `Bearer ${APIKEY}`}
     })
     setName('')
@@ -45,7 +45,7 @@ export default function ReviewForm() {
       <label>Review</label>
       <textarea
         rows="4"
-        cols="50"
+        cols="20"
         type="text"
         value={review}
         onChange={(e) => setReview(e.target.value)}

@@ -1,9 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap");
-
-.Bankrupcy {
+.Bankruptcy {
   display: flex;
   flex: 3;
   order: 0;
   flex-direction: column;
   background-color: whitesmoke;
+  text-align: left;
+  padding: 100px;
+}
+
+@media only screen and (max-width: 650px) {
+  .Bankruptcy {
+    flex-wrap: wrap;
+    padding: 25px;
+  }
 }

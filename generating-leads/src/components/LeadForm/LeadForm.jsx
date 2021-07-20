@@ -28,10 +28,9 @@ export default function LeadForm() {
       service,
     }
 
-    const res = await axios.post(URL, { fields }, {
+     await axios.post(URL, { fields }, {
       headers: {Authorization: `Bearer ${APIKEY}`}
     })
-    console.log(res)
     swal(`Congratulations ${name} on taking the first step towards becoming debt free!`, `We'll contact you soon`, "success")
       setName("")
       setDebtAmount(0)

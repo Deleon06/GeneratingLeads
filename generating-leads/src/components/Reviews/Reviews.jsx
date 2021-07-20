@@ -16,7 +16,6 @@ const [reviews, setReviews] = useState([])
 
   const getData = async () => {
     const res = await axios.get(URL, { headers: { Authorization: `Bearer ${APIKEY}` } })
-    console.log(res)
     setReviews(res.data.records)
   }
     return (
