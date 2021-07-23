@@ -2,7 +2,7 @@
 
 ## GeneratingLeads
 
-[deployable URL]
+https://determined-yalow-f9c753.netlify.app/
 
 ## Project Description
 
