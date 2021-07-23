@@ -1,12 +1,11 @@
 import './CreditCounseling.css'
-
+//nationaldebtrelief.com
 export default function CreditCounseling() {
   return (
     
       <div className="CreditCounseling">
         <h1>Credit Counseling</h1>
         <p>
-
         A second option is consumer credit counseling.
         There is any number of consumer credit counseling agencies available on the Internet or you may be able to find one locally.
         The best of these are nonprofits.
@@ -20,7 +19,7 @@ export default function CreditCounseling() {
         If all or most all your creditors agree to your debt management plan you would stop paying them.
         Instead, you would send one payment a month to the credit-counseling agency and it will distribute the money to your creditors per your DMP.
         The biggest downside to one of these plans is that they typically take five years to complete.
-        You would most likely be required to give up all the credit cards that are in your plan and would be strongly urged to not take on any new credit until you’ve completed your plan.
+        You would most li kely be required to give up all the credit cards that are in your plan and would be strongly urged to not take on any new credit until you’ve completed your plan.
         These are the biggest reasons why nearly half of those debtors who sign up for DMP never successfully complete it. </p>
 
       <p>The benefit of going for this type of debt relief option is that your monthly payment will most likely be much lower than the sum of the payments you are currently making.
